@@ -1,0 +1,55 @@
+.icon-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.icon__info {
+    width: 90px;
+    height: 90px;
+    padding: 25px;
+    border: solid 5px #42475319;
+    margin: 0 auto;
+}
+
+.icon__feedback--main {
+    width: 80px;
+    height: 80px;
+    border: solid 4px #fff;
+}
+
+.icon__feedback--secondary {
+    width: 56px;
+    height: 56px;
+    border: solid 4px #fff;
+}
+
+.icon__feedback--inactive {
+    width: 45px;
+    height: 45px;
+    border: solid 3.2px #fff;
+    opacity: 0.5;
+}
+
+.icon__signup--input {
+    border-radius: none;
+    height: 1.25em;
+    width: 1.25em;
+    border-right: 1px solid #ededef;
+    padding: 5px 15px;
+}
+
+.icon__main--button {
+    border-radius: none;
+    height: 1.25em;
+    width: 1.375em;
+}
+
+.icon__main--socnet {
+    border-radius: none;
+    height: 1em;
+}
+
+.icon-pic {
+    height: 100%;
+    width: 100%;
+}

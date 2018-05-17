@@ -1,0 +1,42 @@
+.heading {
+    font-weight: normal;
+}
+
+.heading__h1 {
+    font-size: 80px;
+    line-height: 94px;
+    color: #ffffff;
+}
+
+.heading__h2 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.heading__h3 {
+    font-size: 28px;
+    color: #424753;
+}
+
+.heading__h3--align {
+    line-height: 1.46em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.heading__h4 {
+    font-size: 16px;
+    line-height: 2em;
+    color: #424753;
+}
+
+.heading__h4--align {
+    line-height: 2em;
+    text-align: center;
+    color: #424753;
+}
+
+.heading__h5 {
+    font-size: 36px;
+    color: #424753;
+}

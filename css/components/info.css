@@ -1,0 +1,22 @@
+.info {
+    height: auto;
+    min-height: 512px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.info__header--margin{
+    margin-top: 20px;
+}
+
+.phone__hr--width {
+    width: 260px;
+    height: 2px;
+    border: solid 1px #ededef;
+}
+
+.phone__paragraph--size {
+    font-size: 16px;
+    line-height: 2;
+    color: #424753;
+}

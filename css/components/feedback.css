@@ -1,0 +1,44 @@
+.feedback__background {
+	background-image: linear-gradient(253deg, #2b8be3, #663fb5);
+	padding-top: 409px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.feedback__review {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+
+.feedback__avatar {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+.feedback__radio {
+	display: none;
+}
+
+.feedback__radio:checked ~ .feedback__review {
+	display: block;
+}
+
+.feedback__radio:checked + .feedback__label>.icon-container {
+	width: 56px;
+	height: 56px;
+	border: solid 4px #fff;
+	opacity: 1;
+	position: relative;
+	top: 5.5px;
+}
+
+.feedback__hr {
+	width: 42px;
+	height: 3px;
+	opacity: 0.25;
+	color: #fff;
+}

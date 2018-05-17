@@ -1,0 +1,17 @@
+.footer {
+    height: auto;
+    min-height: 200px;
+    background-color: #312f38;
+}
+
+.footer__paragraph {
+    padding-top: 82px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer__nav {
+    margin-top: 100px;
+}

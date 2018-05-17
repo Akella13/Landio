@@ -1,0 +1,18 @@
+.list {}
+
+.list__item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 34px;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.list__item--price {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    color: #424753;
+    margin: 0;
+}

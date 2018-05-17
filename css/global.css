@@ -1,0 +1,248 @@
+/* MAIN */
+.main {
+    text-align: center;
+    padding-top: 250px;
+    height: auto;
+    min-height: 100vh;
+    background: url(../img/main_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__button {
+    margin-top: 63px;
+}
+
+.main__button-icon {
+    height: 1.3em;
+    margin-right: 1em;
+}
+/* NAV */
+.nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav__list {
+    display: block;
+    padding-top: 38px;
+}
+
+.nav__link {
+    float: right;
+}
+/* PHONE */
+.phone{
+    background: url('../img/mock.png') no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-color: rgba(242, 242, 242, 0.9);
+    height: auto;
+    min-height: 500px;
+    padding-top: 90px;
+}
+/* INFO */
+.info {
+    height: auto;
+    min-height: 512px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.info__header--margin{
+    margin-top: 20px;
+}
+
+.phone__hr--width {
+    width: 260px;
+    height: 2px;
+    border: solid 1px #ededef;
+}
+
+.phone__paragraph--size {
+    font-size: 16px;
+    line-height: 2;
+    color: #424753;
+}
+/* PRICE */
+.price {
+    background-color: #f4f5f7;
+    padding: 90px 0 75px;
+    max-height: 762px;     
+}
+
+.price__item {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #ECEFF3;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 0 30px;
+    margin-top: 78px;
+    transition: .2s ease;
+    z-index: 0;
+}
+
+.price__header {
+    height: 51px;
+    line-height: 50px;
+    background: #ECEFF3;
+    font-size: 13px;
+    text-align: center;
+    color: #424753;
+    text-transform: uppercase;
+}
+
+.price__content {
+    padding: 25px 30px 0;
+}
+
+.price__price {
+    position: relative;
+    display: inline-block;
+    font-size: 68px;
+    height: 68px;
+    color: #424753;
+    margin: 19px 0 13.5px;
+}
+
+.price__price em {
+    font-size: 28px;
+    line-height: 1;
+    vertical-align: top;
+}
+
+.price__price i {
+    font-size: 13px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: rgba(66, 71, 83, 0.4);
+}
+
+.price__list {
+    margin-bottom: 41px;
+}
+
+.price__list .list__item--price:first-child {
+    padding-top: 20.5px;
+}
+
+.price__list .list__item--price {
+    border-top: solid 1px #ededef;
+}
+
+/* hovers */
+.price__item:hover {
+    height: calc(100% + 60px);
+    width: calc(100% + 48px);
+    left: -24px;
+    top: -15px;
+    border: 1px solid rgba(108, 89, 180, 0.75);
+    z-index: 1;
+}
+
+.price__item:hover > .price__header {
+    background: rgba(108, 89, 180, 0.75);
+    color: #fff;
+}
+
+.price__item:hover > .price__content {
+    padding: 25px 60px 30px;
+}
+
+.price__item:hover > .price__list {
+    margin-bottom: 41px;
+}
+/* FEEDBACK */
+.feedback__background {
+	background-image: url('../img/bg-testimonials.jpg');
+	padding-top: 409px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.feedback__review {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+
+.feedback__avatar {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+.feedback__radio {
+	display: none;
+}
+
+.feedback__radio:checked ~ .feedback__review {
+	display: block;
+}
+
+.feedback__radio:checked + .feedback__label>.icon-container {
+	width: 56px;
+	height: 56px;
+	border: solid 4px #fff;
+	opacity: 1;
+	position: relative;
+	top: 5.5px;
+}
+
+.feedback__hr {
+	width: 42px;
+	height: 3px;
+	opacity: 0.25;
+	color: #fff;
+}
+
+/* SIGNUP */
+.signup {
+    background-color: #f4f5f7;
+    padding-top: 90px;
+    padding-bottom: 99px;
+}
+.signup__heading--margin-bottom {
+    margin-bottom: 59px;
+}
+.signup__link--text-color {
+    color: #424753;
+}
+.signup__button--width{
+    width: 100%;
+}
+.signup__heading--align{
+    text-align: center;
+}
+.signup__button--font-size{
+    font-size: 13px;
+}
+.signup__div-input{
+    position: relative;
+}
+.signup__div-input>div>img{
+    opacity: 0.3;
+}
+
+/* FOOTER */
+.footer {
+    height: auto;
+    min-height: 200px;
+    background-color: #312f38;
+}
+
+.footer__paragraph {
+    padding-top: 82px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer__nav {
+    margin-top: 100px;
+}

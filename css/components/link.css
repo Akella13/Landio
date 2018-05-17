@@ -1,0 +1,13 @@
+.link {
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    border-bottom: 2px transparent;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.link--hover:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,9 @@
+.phone{
+    background: url('../../images/mock.png') no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-color: rgba(242, 242, 242, 0.9);
+    height: auto;
+    min-height: 500px;
+    padding-top: 90px;
+}

@@ -1,0 +1,43 @@
+.button {
+    display: inline-block;
+    border-radius: 40px;
+    outline: none;
+    padding: 20px 0;
+    font-size: 13px;
+    line-height: 1em;
+    font-weight: normal;
+    min-width: 236px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: white;
+    border: solid 2px #ffffff;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:focus {
+    box-shadow: 0 0 6px 0 rgba(135, 121, 189, 0.53);
+}
+
+.button--purple-border {
+    border: solid 2px #8779bd;
+    color: #8779bd;
+}
+
+.button--purple-border:hover {
+    background-color: #8779bd;
+    color: white;
+}
+
+.button--purple {
+    background-color: #8779bd;
+    border: solid 2px #8779bd;
+}
+
+.button--transparent {
+    padding: 20px 34px;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+}
